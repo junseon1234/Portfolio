@@ -1,5 +1,5 @@
 html, body, h1, h2, h3, h4, h5, h6 { padding: 0; margin: 0; }
-body { font-family: "Lucida Sans", Verdana, sans-serif; background:linear-gradient(rgba(47,23,15,.65),rgba(47,23,15,.65)),url(../images/bg.jpg);background-attachment:fixed;background-position:center;background-size:cover; }
+body { font-family: "Lucida Sans", Verdana, sans-serif; background:linear-gradient(rgba(245,245,255,.75),rgba(255,255,255,.25),rgba(255,255,255,.15)),url(../images/bg.jpg);background-attachment:fixed;background-position:center;background-size:cover; }
 ul { list-style: none; }
 nav, section, footer { padding:30px 0; }
 a { text-decoration: none; }
@@ -19,7 +19,7 @@ button { cursor: pointer; }
 }
 .btn:hover, .active { 
 	color: red; 
-	background-color: #f2dede; 
+	background-color: #efffb1;
 	box-shadow: 0 4px 8px 0 rgba(229, 242, 222, 0.4), 0 6px 20px 0 rgba(229, 242, 222, 0.39); 
 }
 
@@ -38,14 +38,14 @@ button { cursor: pointer; }
 
 footer {
 	clear: both;
-	background-color: rgba(47, 23, 15, 0.9);
-	color: rgba(255, 255, 255, 0.3);
+	background-color: rgba(124, 141, 86, 0.6);
+	color: #e8e8e8;
 }
 footer a:hover { color: red; }
 .text-center { text-align: center; }
 
 nav h1 {
-	color: white;
+	color: #d62b89;
 	font-size: 5rem;
 	font-weight: 100;
 	line-height: 4rem;
@@ -56,7 +56,7 @@ nav .container {
 	height: 50px;
 	padding: 24px 15px;
 	margin: 0 auto;
-	background-color: rgba(47, 23, 15, 0.9);
+	background-color: rgba(124, 141, 86, 0.6);
 	color: rgba(255, 255, 255, 0.3);
 	position: relative;
 }
@@ -122,12 +122,14 @@ section.contents {
 	font-size: 1.5rem;
 	border-radius: 5px;
 	cursor: pointer;
+	opacity: 0.9;
 }
 
 .isotope-item img {
 	width: calc(100% - 20px);
 	min-height: 260px;
 	padding: 10px 10px 0 10px;
+	background: white;
 }
 
 a {
@@ -159,6 +161,7 @@ section.contents2 {
 	width: calc(100% - 20px);
 	padding: 10px;
 	border-radius: 10px;
+	opacity: 0.9;
 }
 #inBox:after{
 	content:'';
