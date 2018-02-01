@@ -3,7 +3,7 @@ var gApp = angular.module('gApp', []);
     	$rootScope.address = "서울시 금천구 가산디지털2로 115 대륭테크노타운3차";
     	$rootScope.dns = "GooDee";
     	$rootScope.title = "Portfolio";
-    	$rootScope.name = "박기윤";
+    	$rootScope.name = "유준선";
     });
 	gApp.controller('gCtrl', function($scope) {
 		$scope.htmlCheck = false;
@@ -48,7 +48,8 @@ var gApp = angular.module('gApp', []);
 			 url : "team/team.pdf", 
 			 title: "Team",
 			 name: "Impression",
-			 img: "team/TeamImpression.png",
+			 img: "team/TeamImpression1.png",
+			 img2: "team/TeamImpression2.png",
 			 type : true, 
 			 contents: "처음 만드는 홈페이지라서 어떤 것부터 시작해야 되는지도 몰랐고, 팀원들과 역할 분담을 어떻게 해야될지가 가장 어려웠던 것 같습니다. 교육을 받고도 어떻게 응용해야될지를 몰라서 흐지부지 지나간 시간들이 많아서 아쉬웠고, 지금 다시 팀원들과 홈페이지 제작을 하게 된다면 더 좋은 기능들을 넣은 홈페이지를 제작할 수 있을 것 같습니다."
 			},{
@@ -56,15 +57,16 @@ var gApp = angular.module('gApp', []);
 			 url : "personal/personal.pdf", 
 			 title: "Personal",
 			 name: "Impression",
-			 img: "personal/PersonalImpression.png",
+			 img: "personal/PersonalImpression1.png",
+			 img2: "personal/PersonalImpression2.png",
 			 type : false,
-			 contents: "개인프로젝트를 완성후에 그 뿌듯함과 성취감은 팀프로젝트를 완성했을때와는 사뭇 달랐습니다. 처음부터 혼자서 기획하고 자료를 수집하고 디자인을 하는것은 상당히 어려웠는데 미숙하지만 완성할 수 있어서 다행이라고 생각합니다. 후에 제 기술이 더 발전을하면 완성한 프로젝트를 더 가다듬고 가꾸고 싶다는 생각이 들었고, 제가 한걸음 더 성장했다는걸 느낄수 있는 좋은 경험이었습니다."
+			 contents: "개인 프로젝트로 홈쇼핑 페이지를 만들게 되었습니다. 혹시나 홈쇼핑 자영업을 하게 된다면으로 한번쯤 홈페이지를 만들어 볼까 싶기도 했었습니다. 상품의 주제를 선택하던 중 임시로 꽃병을 선택했습니다. 처음으로 혼자 만든 홈페이지인데 많이 부족한 부분이 있습니다. 프론트엔드 쪽의 실력이 부족하여 스타일 대부분을 부트스트랩에 의존하게 되었습니다. 게다가 기획을 정확하게 설정하지 못한것도 있고, 버그 발생에 대처가 늦어서 미흡한 부분이 매우 많이 생겼습니다."
 			},{
 			 path: "media/",
 			 url : "personal.mp4", 
 			 title: "Personal",
 			 name: "Media",
-			 img: "personal/PersonalMedia.png",
+			 img2: "personal/PersonalMedia.png",
 			 type : false, 
 			 contents: ""
 			}
